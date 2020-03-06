@@ -9,7 +9,11 @@ This repo contains the codes for the TNNLS paper. we propose a complex convoluti
 ![alt text](./Selection_001.png)
 **10, 000 Monte-Carlo simulations for evaluating the compared methods on the expected values and standard deviations of step function approximation. The amplitude is constant and the coherence value is set as 0.3.**
 
+## Usage
 
+`train_cpx_dic.m` uses ComCSC and ComCSC-GR to train the complex convolutional dictionaries based on the simulated interferograms `train_cpxs.mat`.
+
+`recon_peaks_cpx_comp.mlx` gives a demo using the learned convolutional dictionaries to restore the clean interferogram.
 
 
 ## Citation
