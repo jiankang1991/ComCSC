@@ -4,7 +4,7 @@
 
 ---
 
-This repo contains the codes for the TNNLS paper. we propose a complex convolutional sparse coding (ComCSC) algorithm and its gradient regularized version (ComCSC-GR) for interferometric phase restoration. Our method outperforms the state-of-the-art methods. The codes are modified from [SPORCO](http://brendt.wohlberg.net/software/SPORCO/) for adapting to complex images.
+This repo contains the codes for the [TNNLS paper](https://arxiv.org/pdf/2003.03440.pdf). we propose a complex convolutional sparse coding (ComCSC) algorithm and its gradient regularized version (ComCSC-GR) for interferometric phase restoration. Our method outperforms the state-of-the-art methods. The codes are modified from [SPORCO](http://brendt.wohlberg.net/software/SPORCO/) for adapting to complex images.
 
 ![alt text](./Selection_001.png)
 **10, 000 Monte-Carlo simulations for evaluating the compared methods on the expected values and standard deviations of step function approximation. The amplitude is constant and the coherence value is set as 0.3.**
